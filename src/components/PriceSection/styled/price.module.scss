@@ -1,0 +1,64 @@
+.price_container {
+  border-radius: 10px;
+  background-color: #ffffff;
+  background-position: center center;
+  padding: 50px 20px 50px 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.list {
+
+}
+
+.list_items {
+  padding-left: 45px;
+  background-image: url('../img/icon_list.svg');
+  background-position: 0 0;
+  background-size: 1.5rem 2rem;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(68, 165, 250);
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.container {
+  width:400px;
+  margin:0 auto;
+  position: relative;
+}
+
+.text_price {
+  font-size: 26px;
+  color: #44a5fa;;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.oval_one {
+  position: absolute;
+  top:-30px;
+  right:-600px;
+  z-index: -1000;
+  background-color: #edf6fe;
+  border-radius: 100%;
+  height: 350px;
+  width: 350px;
+}
+
+.oval_two {
+  position: absolute;
+  top:0;
+  left:-700px;
+  z-index: -1000;
+  border: 1px solid #79bffc;
+  border-radius: 100%;
+  height: 500px;
+  width: 500px;
+}

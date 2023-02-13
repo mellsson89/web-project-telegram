@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+
+}
+
+.link {
+  cursor: pointer;
+  &:hover {
+    color:#44a5fa;
+  }
+}
+
+.menuItems {
+  margin-right: 80px;
+}

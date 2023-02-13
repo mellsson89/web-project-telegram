@@ -1,0 +1,214 @@
+.container {
+  display:flex;
+  line-height: 35px;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  color:rgb(68, 165, 250);
+  text-transform: uppercase;
+}
+
+.title_min {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333333;
+  margin-top:15px;
+  margin-bottom: 15px;
+  max-width: 700px;
+}
+
+.list {
+  margin-top:25px;
+  margin-bottom: 40px;
+}
+
+.list_items {
+  font-weight: bold;
+  padding-left: 45px;
+  background-image: url('../img/icon_list.svg');
+  background-position: 0 0;
+  background-size: 2rem 2rem;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.container_message {
+  position:relative;
+  z-index: -1;
+}
+
+.container_iphone {
+  margin-top: -30px;
+  padding-top: 20px;
+}
+
+.message_one {
+  position: absolute;
+  top: 200px;
+  right: 80px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.message_one_info {
+  display:flex;
+  align-items: center;
+  min-width: 420px;
+}
+
+.message_one_info_container {
+  margin-left: 10px;
+}
+
+.message_one_info_title {
+  font-weight: bold;
+}
+
+.message_one_info_text {
+  line-height: 20px;
+}
+
+.message_one_info_status {
+  margin-top: -40px;
+  margin-left: -30px;
+  font-size: 12px;
+  color:#807d7d;
+}
+
+
+.message_two {
+  position: absolute;
+  top: 90px;
+  left:100px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  min-width: 350px;
+}
+
+.message_two_info {
+  display:flex;
+  align-items: center;
+
+}
+
+.message_two_info_container {
+  margin-left: 10px;
+}
+
+.message_two_info_title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.message_two_info_text {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.message_two_info_status {
+  margin-top: -40px;
+  margin-left: -30px;
+  font-size: 12px;
+  color: #807d7d
+}
+
+
+.message_three {
+  position: absolute;
+  top: 320px;
+  right:5px;
+  background-color: #ffffff;
+  padding: 2px 10px 2px 10px;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.message_three_info {
+  display:flex;
+  align-items: center;
+}
+
+.message_three_info_container {
+  margin-left: 10px;
+  width: 250px;
+}
+
+.message_three_info_title {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.message_three_info_text {
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.message_three_info_status {
+  margin-top: -40px;
+  margin-left: -30px;
+  font-size: 10px;
+  color: #807d7d
+}
+
+.oval {
+  position: absolute;
+  top:-400px;
+  left:-450px;
+  z-index: -1200;
+  border: 2px solid #f2f8fd;
+  border-radius: 100%;
+  height: 550px;
+  width: 550px;
+}
+
+.oval_two {
+  position: absolute;
+  top:-400px;
+  right:-250px;
+  z-index: -1000;
+  border: 1px solid #79bffc;
+  border-radius: 100%;
+  height: 450px;
+  width: 450px;
+}
+
+.oval_three {
+  position: absolute;
+  top:150px;
+  right:220px;
+  z-index: -1000;
+  background-color: #edf6fe;
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+
+.oval_four {
+  position: absolute;
+  top:250px;
+  right:-300px;
+  z-index: -1000;
+  background-color: #edf6fe;
+  border-radius: 100%;
+  height: 450px;
+  width: 450px;
+}
+
+.oval_five {
+  position: absolute;
+  top:350px;
+  right:600px;
+  z-index: -1000;
+  border: 2px solid #f2f8fd;
+  border-radius: 100%;
+  height: 220px;
+  width: 220px;
+}

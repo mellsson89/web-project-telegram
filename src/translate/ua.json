@@ -1,0 +1,68 @@
+{
+  "header":{
+    "Rate": "Тариф",
+    "Support": "Підтримка",
+    "Documentation": "Документація",
+    "Personal cabinet": "Особистий кабінет"
+  },
+
+  "telegram":{
+    "IntegrationOne": "Стабільний REST API для персонального (номерного)",
+    "IntegrationTwo": "Telegram для надсилання та читання повідомлень через HTTP запити",
+    "StableApi": "Для інтеграції номерного Telegram у CRM або будь-яку іншу систему",
+    "ListOne": "Можна писати першим",
+    "ListOnePartTwo": "за номером телефону",
+    "ListTwo": "Є можливість",
+    "ListTwoPartTwo": "читати повідомлення у групах",
+    "ListThree": "Можливість",
+    "ListThreePartTwo": "спілкуватися через інтерфейс",
+    "ListThreePartTree": "Telegram",
+    "Button": "Спробувати безкоштовно!",
+    "MessageOneTitle": "Салон \"Nails OK\"",
+    "MessageOneText": "Ви записані в салон краси",
+    "MessageOneTextPartTwo": "\"Nail OK\"",
+    "MessageOneTextPartThree": "на середу, 11 травня, на 12-00. Чекаємо Вас!",
+    "MessageOneStatus": "зараз",
+    "MessageTwoTitle": "Магазин \"Техніка\"",
+    "MessageTwoText": "Статус Вашого замовлення:",
+    "MessageTwoTextPartTwo": "В ОБРОБЦІ",
+    "MessageTwoTextPartThree": "Дата доставки: 11 травня (середа)",
+    "MessageThreeTitle": "Сервіс \"Консультант\"",
+    "MessageThreeText": "Ваше посилання на оплату:",
+    "MessageThreeTextPartTwo": "http://userbot-api.tech"
+  },
+
+  "difference" : {
+    "TitleOnePartOne": "Відмінності",
+    "TitleOnePartTwo": "юзербота від бота",
+    "TitleTableOne": "Telegram юзербот",
+    "TitleTableTwo": "Telegram бот",
+    "TextTableOne": "Можна писати першим за номером телефону",
+    "TextTableTwo": "Можливість читати повідомлення у групах",
+    "TextTableThree": "Можливість спілкуватися через інтерфейс Telegram",
+    "TextTableFour": "Усі можливості звичайного користувача Telegram"
+  },
+
+"activation" : {
+  "TitleOnePartOne": "Швидка та зрозуміла",
+  "TitleOnePartTwo": "самостійна активація",
+  "TitleOnePartThree": "облікового запису",
+  "TextTabOne": "Надіслати повідомлення",
+  "TextTabTwo": "Відправити фото",
+  "TextTabThree": "Знайти користувача за номером телефону"
+},
+  "price" : {
+    "Title": "Тариф",
+    "TextListOne": "Усі методи відправлення будь-яких повідомлень та медіа;",
+    "TextListTwo": "Можливість писати першим за username та telegram_id;",
+    "TextListThree": "Можливість створення груп та додавання/видалення учасників у них.",
+    "TextListFour": "Можливість писати першим за номером телефону;",
+    "TextListFive": "Проксі для безпечного надсилання великої кількості повідомлень.",
+    "Button": "Вибрати"
+  },
+  "footer" : {
+    "TextOne": "Політика конфіденційності",
+    "TextTwo": "Договір-Оферта",
+    "TextThree": "Усі права захищені © 2020 - 2023"
+  }
+}

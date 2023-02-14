@@ -3,9 +3,9 @@ import Button from "../Button";
 import iphone from "./img/iphone.png";
 import telegram from "./img/telegram.png"
 import styled from './styles/telegram.module.scss';
-import Lottie from "lottie-react";
-import animationTelegramOne from './img/Telegram-3.json';
-import animationTelegramTwo from './img/telegram.json';
+// import Lottie from "lottie-react";
+// import animationTelegramOne from './img/Telegram-3.json';
+// import animationTelegramTwo from './img/telegram.json';
 import {useTranslation} from "react-i18next";
 
 const TelegramSection = () => {
@@ -30,11 +30,11 @@ const TelegramSection = () => {
                 <Button style={{padding:'15px 30px 15px 30px'}}>{t?.("telegram.Button")}</Button>
             </div>
             <div className={styled.container_message}>
-                <Lottie animationData={animationTelegramTwo} loop={true} style={{width:'90px', position:"absolute"}}/>
+                {/*<Lottie animationData={animationTelegramTwo} loop={true} style={{width:'90px', position:"absolute"}}/>*/}
                 <div className={styled.container_iphone}>
                     <img src={iphone} alt="Iphone" width='500'/>
                 </div>
-                <Lottie animationData={animationTelegramOne} loop={true} style={{width:'65px', position:"absolute",right:'100px', top:'430px' }}/>
+                {/*<Lottie animationData={animationTelegramOne} loop={true} style={{width:'65px', position:"absolute",right:'100px', top:'430px' }}/>*/}
                 <div className={styled.message_one}>
                     <div className={styled.message_one_info}>
                         <img src={telegram} alt="Telegram" width='70' height='70'/>

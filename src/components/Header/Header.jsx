@@ -1,12 +1,12 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Menu from "../Menu";
 import styled from './styles/headet.module.scss';
-import Button from "../Button";
 import logo from './img/logo.png'
 import ukraine from './img/ukraine.png'
 import russia from './img/russia.png';
 import i18n from "../../i18n/i18n";
 import {useTranslation} from "react-i18next";
+import { NavLink} from 'react-router-dom'
 
 
 const Header = ({language, setLanguage}) => {
@@ -33,16 +33,22 @@ const Header = ({language, setLanguage}) => {
     }
 
 
-
     function progressBar() {
         let scroll = document.body.scrollTop || document.documentElement.scrollTop;
         let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         let scrolled = scroll / height * 100;
-
         document.getElementById('progressBar').style.width = scrolled + '%';
+
     }
 
-    window.addEventListener('scroll',progressBar );
+
+    useEffect(() => {
+        window.addEventListener('scroll',progressBar );
+        return () => {
+            window.removeEventListener('scroll',progressBar );
+        }
+    },[])
+
 
     return (
         <div style={{marginBottom:"150px"}}>
@@ -57,7 +63,7 @@ const Header = ({language, setLanguage}) => {
                     </li>
                     <li className={styled.listItems}>
                         <div style={{marginRight:'30px'}}>
-                            <Button>{t?.('header.Personal cabinet')}</Button>
+                            <NavLink to='/login' className={styled.buttonNav}>{t?.('header.Personal cabinet')}</NavLink>
                         </div>
 
                         <div>

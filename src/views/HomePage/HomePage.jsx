@@ -27,7 +27,7 @@ const HomePage = () => {
 
         }
 
-    }, []);
+    }, [language, setLanguage]);
 
     return (
         <>

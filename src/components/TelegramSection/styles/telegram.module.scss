@@ -212,3 +212,66 @@
   height: 220px;
   width: 220px;
 }
+
+.icon_container_big {
+  position: absolute;
+  right: 120px;
+  top:500px
+}
+
+.icon_container_small_one {
+  position: absolute;
+  left: 40px;
+  top:20px
+}
+
+.icon_container_small_two {
+  position: absolute;
+  right: 20px;
+  top:200px
+}
+
+.icon_big {
+  background: url('../img/icon_telegram_big.png') 50% 50% no-repeat;
+  background-size: contain;
+  width: 101px;
+  height: 104px;
+
+  animation: rotateIcon 5s infinite alternate ease-out;
+  animation-direction: normal;
+}
+
+.icon_small {
+  background: url('../img/icon_telegram_small.png') 50% 50% no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 52px;
+
+  animation: rotateIcon 5s infinite alternate ease-out;
+  animation-direction: normal;
+}
+
+@keyframes rotateIcon {
+  0% {
+    transform: translateX(0) scale(0.9);
+
+  }
+  20% {
+    transform: translateX(10px) scale(1);
+  }
+  40% {
+    transform:  translateX(15px)  scale(1.1);
+  }
+
+  60% {
+    transform: translateX(15px) scale(1.1);
+  }
+
+  80% {
+    transform: translateX(20px) scale(1);
+  }
+
+  100% {
+    transform: translateX(20px) scale(0.9);
+  }
+}

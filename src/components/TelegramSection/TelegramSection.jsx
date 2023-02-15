@@ -30,11 +30,19 @@ const TelegramSection = () => {
                 <Button style={{padding:'15px 30px 15px 30px'}}>{t?.("telegram.Button")}</Button>
             </div>
             <div className={styled.container_message}>
-                {/*<Lottie animationData={animationTelegramTwo} loop={true} style={{width:'90px', position:"absolute"}}/>*/}
                 <div className={styled.container_iphone}>
                     <img src={iphone} alt="Iphone" width='500'/>
                 </div>
-                {/*<Lottie animationData={animationTelegramOne} loop={true} style={{width:'65px', position:"absolute",right:'100px', top:'430px' }}/>*/}
+                <div className={styled.icon_container_big}>
+                    <div className={styled.icon_big}></div>
+                </div>
+                <div className={styled.icon_container_small_one}>
+                    <div className={styled.icon_small}></div>
+                </div>
+                <div className={styled.icon_container_small_two}>
+                    <div className={styled.icon_small}></div>
+                </div>
+
                 <div className={styled.message_one}>
                     <div className={styled.message_one_info}>
                         <img src={telegram} alt="Telegram" width='70' height='70'/>
